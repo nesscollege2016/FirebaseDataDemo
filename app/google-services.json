@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "547042408069",
+    "firebase_url": "https://firedatademos.firebaseio.com",
+    "project_id": "firedatademos",
+    "storage_bucket": "firedatademos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547042408069:android:39bfe086ff5fe4eb",
+        "android_client_info": {
+          "package_name": "ness.tomerbu.edu.firebasedatademo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547042408069-drgk8j8ufocfc8duroevomfh3u1qs3m3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ness.tomerbu.edu.firebasedatademo",
+            "certificate_hash": "F4A0913F8B93F028E25C8B352DEBCC4D69BC98F3"
+          }
+        },
+        {
+          "client_id": "547042408069-jalhbju8lqqglun7ms7t9piarg3frdch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsomXEdTQJ2rQKT6gdpfW0PNjFF9h1e68"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547042408069-jalhbju8lqqglun7ms7t9piarg3frdch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
