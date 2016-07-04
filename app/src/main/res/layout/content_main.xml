@@ -12,8 +12,18 @@
     tools:context="ness.tomerbu.edu.firebasedatademo.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/btnSend"
+        android:hint="Message..."
+        android:id="@+id/etMessage"/>
+
+    <Button
+        android:layout_alignParentRight="true"
+        android:id="@+id/btnSend"
+        android:text="Send"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:onClick="sendMessage" />
 </RelativeLayout>

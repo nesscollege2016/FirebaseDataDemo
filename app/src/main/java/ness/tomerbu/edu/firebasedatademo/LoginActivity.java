@@ -93,11 +93,11 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void showProgressDialog() {
-        if (dialog==null) {
+        if (dialog == null) {
             dialog = new ProgressDialog(this);
             dialog.setTitle("Signing you in");
             dialog.setMessage("Please wait");
-            //TODO: Consider dialog.setCancelable()
+            //dialog.setCancelable(false);
         }
         dialog.show();
     }
